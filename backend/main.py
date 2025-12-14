@@ -4,9 +4,9 @@ from datetime import date
 from uuid import UUID
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.database import SessionLocal, engine
-import models, schemas, crud
-from spaced_repetition import cap_nhat_spaced_repetition
+from .database import SessionLocal, engine
+from . import models, schemas, crud
+from .spaced_repetition import cap_nhat_spaced_repetition
 
 # =====================
 # INIT DATABASE
