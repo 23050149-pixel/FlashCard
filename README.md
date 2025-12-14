@@ -1,4 +1,4 @@
-# FlashCard Master 📚
+# FlashCard 📚
 
 FlashCard Master là một ứng dụng học tập sử dụng **Flashcard** kết hợp **Spaced Repetition** giúp người dùng ghi nhớ kiến thức hiệu quả hơn.  
 Dự án gồm **Backend (FastAPI)** và **Frontend (HTML/CSS/JS)** tách rời.
