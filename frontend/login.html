@@ -72,11 +72,14 @@
         }
 
         try {
-          const res = await fetch("http://127.0.0.1:8000/dang-nhap", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email, mat_khau }),
-          });
+          const res = await fetch(
+            "https://flashcard-gngf.onrender.com/dang-nhap",
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ email, mat_khau }),
+            }
+          );
 
           if (!res.ok) {
             const err = await res.json();

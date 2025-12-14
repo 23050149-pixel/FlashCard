@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 # =====================
 # DATABASE CONFIG
 # =====================
-DATABASE_URL = "postgresql://student:123456@localhost:5432/flashcard"
+DATABASE_URL = "postgresql://flashcard_ar5k_user:hfaIOOniDoWPXHoq4bxVoK5OB6fI0mlA@dpg-d4vcpapr0fns739irq2g-a.virginia-postgres.render.com/flashcard_ar5k"
 
 # =====================
 # ENGINE
