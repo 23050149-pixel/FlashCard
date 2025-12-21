@@ -38,7 +38,7 @@ Backend: Python, FastAPI
 
 Frontend: HTML, CSS, JavaScript
 
-Cơ sở dữ liệu: SQLite
+
 🖥️ Cấu trúc thư mục
 ```bash
 FLASHCARD-MASTER/
